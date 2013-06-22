@@ -15,7 +15,11 @@ try {
 	$binu_app = new biNu_app($app_config);
 	
 	$binu_app->add_style( array('name' => 'body_text', 'color' => '#1540eb') );
+	$binu_app->add_style( array('name' => 'body_text2', 'color' => '#FF0000') );
 	$binu_app->add_text('Hello world', 'body_text');
+	
+	$binu_app->add_text('This is an example application','body_text2');
+	$binu_app->add_link('index2.php','Click me','body_text');
 
 
 	/* Show biNu page */
