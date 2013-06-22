@@ -1,12 +1,20 @@
+This PHP class is designed to hide the developer from the nuances of Binu Markup Language (BML).
+
+In its initial form it does not support all BML schema options. Full documentation on BML schema is available here:
+
+http://developer.binu.com/wp-content/xml_doc/index.html
+
+Example use of PHP helper class below:
+
 <?php
-require_once('biNu-application-framework--PHP-master/class.biNu.php');
+require_once('class.biNu.php');
 
 // Assign application configuration variables during constructor
 $app_config = array (
-	'dev_id' => 17768,								// Your DevCentral developer ID goes here
-	'app_id' => 5951,								// Your DevCentral application ID goes here
+	'dev_id' => 999999,								// Your DevCentral developer ID goes here
+	'app_id' => 999999,								// Your DevCentral application ID goes here
 	'app_name' => 'My First biNu App',				// Your application name goes here
-	'app_home' => 'http://binu-example-101.azurewebsites.net/',	// Publically accessible URI
+	'app_home' => 'http://yourdomain.com/my_app/',	// Publically accessible URI
 	'ttl' => 1										// Your page "time to live" parameter here
 );
 
