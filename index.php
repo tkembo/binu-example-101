@@ -17,9 +17,6 @@ try {
 	$binu_app->add_style( array('name' => 'body_text', 'color' => '#1540eb') );
 	$binu_app->add_text('Hello world', 'body_text');
 
-	/* Process menu options */
-	$binu_app->add_menu_item( '8', 'My App Home', $binu_app->application_URL  );
-	$binu_app->add_menu_item( '9', 'biNu Home', 'http://apps.binu.net/apps/mybinu/index.php' );
 
 	/* Show biNu page */
 	$binu_app->generate_BML();
