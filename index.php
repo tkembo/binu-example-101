@@ -16,10 +16,18 @@ try {
 	
 	$binu_app->add_style( array('name' => 'body_text', 'color' => '#1540eb') );
 	$binu_app->add_style( array('name' => 'body_text2', 'color' => '#FF0000') );
-	$binu_app->add_text('Hello world', 'body_text');
 	
-	$binu_app->add_text('This is an example application','body_text2');
-	$binu_app->add_link('index2.php','Click me','body_text');
+	
+$binu_app->add_text('Urban Dictionary','body_text');
+$binu_app->add_text('Random Word','body_text2');
+
+$binu_app->add_link('letter.php?letter=a&amp;pageNum_wordsRecordset=0','1','body_text2');
+$binu_app->add_link('letter.php?letter=a&amp;pageNum_wordsRecordset=0','2','body_text2');
+$binu_app->add_link('letter.php?letter=a&amp;pageNum_wordsRecordset=0','3','body_text2');
+$binu_app->add_link('letter.php?letter=a&amp;pageNum_wordsRecordset=0','4','body_text2');
+$binu_app->add_link('letter.php?letter=a&amp;pageNum_wordsRecordset=0','5','body_text2');
+$binu_app->add_link('letter.php?letter=a&amp;pageNum_wordsRecordset=0','6','body_text2');
+$binu_app->add_link('letter.php?letter=a&amp;pageNum_wordsRecordset=0','7','body_text2');
 
 
 	/* Show biNu page */
